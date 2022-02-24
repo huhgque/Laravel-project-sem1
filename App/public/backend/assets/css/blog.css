@@ -1,0 +1,8 @@
+.blog-form {
+    top: 25vh;
+    right: 25vw;
+    width: 50vw;
+    position: fixed;
+    background: black;
+    z-index: 100;
+}

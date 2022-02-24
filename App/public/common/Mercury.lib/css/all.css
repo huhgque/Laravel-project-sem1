@@ -1,0 +1,75 @@
+.prefix_img {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.prefix_img img {
+    height: 100% !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-middle {
+    height: 100% !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+.a-hov-0:hover {
+    color: none;
+}
+
+.hov-darken:hover {
+    background: rgb(226, 226, 226);
+}
+
+.transition-normal {
+    transition: 0.2s;
+}
+
+.transition-0 {
+    transition: unset;
+}
+
+.outline-0 {
+    outline: unset !important;
+}
+
+.resize-none {
+    resize: none;
+}
+
+.transparent-25 {
+    opacity: 0.25;
+}
+
+.transparent-50 {
+    opacity: 0.5;
+}
+
+.transparent-75 {
+    opacity: 0.75;
+}
+
+.transparent-100 {
+    opacity: 1;
+}
+
+.rotate-0 {
+    transform: rotate(0deg);
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
